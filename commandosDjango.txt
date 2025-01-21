@@ -1,0 +1,15 @@
+Como crear un proyecto de Django:
+1. Vamos a crear una carpeta.
+2. Verificar la version de python instalada.
+3. Verificar la version de pip
+4. Como muy buena practic: Crear un virtual enviroment
+5. Vamos a instalar Django.(dentiroo del env)
+6. Verificar instalacion de python. django-admin --version  
+8. BUENAS PRACTICAS- crear archivo requirements.txt para guardar librerias
+9.  pip freeze > requirements.txt
+10. pip install -r requirements.txt
+11. Vamos a crear el proyecto de Django django-admin startproject my_tennis_club
+11.1. (opcional) Modificar language code y time zone
+12. Vamos a levantar el proyecto de Django.
+13. py manage.py startapp member(crear app)
+14. 
