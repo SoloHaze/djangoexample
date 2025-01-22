@@ -1,0 +1,29 @@
+{% extends "master.html" %}
+
+{% block titulo %}
+    All member
+{% endblock %}
+{% block contenido %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles</title>
+</head>
+<body>
+    <header>
+        <h1>{{mymember.firstname}} {{mymember.lastname}}</h1>
+    </header>
+
+
+
+
+    <main><!-- Detalles de cada pintura-->
+
+        <p>Phone {{mymember.phone}}</p>
+        <p>Fecha de inscipcion {{mymember.joined_date}}</p>
+        <p>Volver a <a href="/members">Todas la pinturas</a></p>
+
+      
+    </main>
+
+{% endblock %}
